@@ -57,11 +57,11 @@ public class ListaGenerica<T extends Comparable<T>>{
         }
     }
 
-    public void eliminarElemento(T elem) {
+    public void eliminarElemento(T elem) throws ElementoInexistenteException {
         try {
             this.getLista().remove(elem);
         } catch (IndexOutOfBoundsException e) {
-
+            throw new ElementoInexistenteException("El elemento especificado no se encuentra en la lista.");
         }
     }
 }
