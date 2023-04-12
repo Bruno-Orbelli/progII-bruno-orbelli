@@ -209,7 +209,7 @@ public class Main {
 
         HashMap<String, Empleado> mapaEmpleados = new HashMap<String, Empleado>();
 
-        for(Empleado emp: empleados2){
+        for(Empleado emp: empleados3){
             mapaEmpleados.put(emp.getApellido() + ", " + emp.getNombre(), emp);
         }
 
