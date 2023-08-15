@@ -1,0 +1,21 @@
+server:
+  port: 8080
+datos-iniciales:
+  dom1:
+    calle: Aráoz
+    numero: 23
+    localidad: Luján de Cuyo
+    provincia: Mendoza
+    codigo: 1
+  dom2:
+    calle: San Martín
+    numero: 563
+    localidad: Godoy Cruz
+    provincia: Mendoza
+    codigo: 2
+  dom3:
+    calle: Lavalle
+    numero: 78
+    localidad: Capital
+    provincia: Mendoza
+    codigo: 3
